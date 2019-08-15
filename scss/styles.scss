@@ -11,9 +11,39 @@ html {
 }
 
 body {
-	/* font-family: ''; */
-	font-size: 1.8rem;
+	font-family: 'Arial', sans-serif;
+	font-size: 2.4rem;
 	line-height: 1.6;
 	color: #333;
+	background-color: #f5e9bc;
 	min-height: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#myDiv,
+#myTextarea{
+	border: 1px solid #333;
+	width: 50%;
+}
+
+#myDiv{
+	word-wrap: break-word;
+	padding: 20px;
+}
+
+#myTextarea{
+	height: 30%;
+	color: #333;
+	outline: none;
+	background-color: transparent;
+}
+
+.hint{
+	font-size: 2rem;
+	position: absolute;
+	bottom: 30px;
 }
